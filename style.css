@@ -1,0 +1,52 @@
+*{
+    margin: auto;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    text-decoration:underline;
+    margin-bottom: 0.5em;
+    color: red;
+}
+table{
+    border-collapse: collapse;
+    width:12em;
+    height: 12em;
+}
+td{
+    border: 5px solid blue;
+    width:4em;
+    height: 4em;
+}
+#btn1, #btn2, #btn3, #btn4, #btn5,
+	#btn6, #btn7, #btn8, #btn9 {
+		margin: auto;
+        width:4em;
+        height:4em;
+		font-size: 2em;
+		text-align: center;
+	}
+	#resetBtn {
+		width: 8em;
+		height: 2em;
+		border-radius: 4px;
+		background-color: rgb(219, 32, 32);
+		color: white;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+    .txt-reset-btn-container{
+        text-align: center;
+        margin-top: 2em;
+    }
+    #print{
+        color: green;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
+    input{
+        color: brown;
+        font-weight: bolder;
+    }
